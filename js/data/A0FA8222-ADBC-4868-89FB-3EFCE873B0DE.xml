@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.2.2:1", "", "Logical Model", "EARoot/EA2/EA2/EA30.htm", "175.png", "30", "0", "", "Logical diagram0","{BC18B323-89C8-4d78-AEE9-AE553001913D}");
+tocTab[tocTab.length] = new Array("0.2.2:2", "", "«table» CATEGORIES", "EARoot/EA2/EA2/EA34.htm", "8C9E6706-8_table.png", "E98", "0", "", "Class0","{E3B05A8D-28D3-4723-A6D0-A6298A1D1D65}");
+tocTab[tocTab.length] = new Array("0.2.2:3", "", "«table» CATEGORY_OF_PRODUCT", "EARoot/EA2/EA2/EA35.htm", "8C9E6706-8_table.png", "E100", "0", "", "Class0","{315BEAD6-9F56-4a29-8A1A-BF66D4DDF01E}");
+tocTab[tocTab.length] = new Array("0.2.2:4", "", "«table» ESTABLISHMENTS", "EARoot/EA2/EA2/EA36.htm", "8C9E6706-8_table.png", "E97", "0", "", "Class0","{EFD96D30-9D07-4654-A0B2-BE6255987D34}");
+tocTab[tocTab.length] = new Array("0.2.2:5", "", "«table» ORDERS", "EARoot/EA2/EA2/EA37.htm", "8C9E6706-8_table.png", "E104", "0", "", "Class0","{FD9C2732-9525-48fc-9695-E73A8EDD97B7}");
+tocTab[tocTab.length] = new Array("0.2.2:6", "", "«table» PRODUCTS", "EARoot/EA2/EA2/EA38.htm", "8C9E6706-8_table.png", "E99", "0", "", "Class0","{D8724B8A-E489-4084-BD26-287861D08756}");
+tocTab[tocTab.length] = new Array("0.2.2:7", "", "«table» SESSION_ORDERS", "EARoot/EA2/EA2/EA39.htm", "8C9E6706-8_table.png", "E103", "0", "", "Class0","{7A65969A-A71D-42ad-B896-228FD7BAAE4D}");
+tocTab[tocTab.length] = new Array("0.2.2:8", "", "«table» SESSIONS", "EARoot/EA2/EA2/EA40.htm", "8C9E6706-8_table.png", "E102", "0", "", "Class0","{8853CD5E-7A20-4607-B9A3-98FA16F90EA9}");
+tocTab[tocTab.length] = new Array("0.2.2:9", "", "«table» TABLES", "EARoot/EA2/EA2/EA41.htm", "8C9E6706-8_table.png", "E101", "0", "", "Class0","{011EB13C-833A-4b43-B275-26D6E4DD547F}");
+tocTab[tocTab.length] = new Array("0.2.2:10", "", "«table» Table B", "EARoot/EA2/EA2/EA42.htm", "8C9E6706-8_table.png", "E81", "0", "", "Class0","{29C03729-BD15-4446-BCD7-8E6A96D7156E}");
+tocTab[tocTab.length] = new Array("0.2.2:11", "", "«table» Table C", "EARoot/EA2/EA2/EA43.htm", "8C9E6706-8_table.png", "E82", "0", "", "Class0","{49AC5ABC-4C34-46aa-90B4-460ED80EA859}");
+tocTab[tocTab.length] = new Array("0.2.2:12", "", "«table» USERS", "EARoot/EA2/EA2/EA44.htm", "8C9E6706-8_table.png", "E83", "0", "", "Class0","{30EF0B7C-559A-4ed6-9972-6E459A445BF2}");
