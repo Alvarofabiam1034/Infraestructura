@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Database A</title>
+<title>CATEGORIES</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Database A", " : "))</script>  : Public  &lt;&lt;EAReportSpecification&gt;&gt; ReportSpecification</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CATEGORIES", " : "))</script>  : Public  &lt;&lt;table&gt;&gt; Table</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">30/09/2020 12:55:31 p. m.</td>
+			<td width="85%" class="ObjectDetailsValue">30/09/2020 1:18:56 p. m.</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">30/09/2020 12:55:31 p. m.</td>
+			<td class="ObjectDetailsValue">30/09/2020 2:11:21 p. m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,40 +87,210 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{4E080B8E-EF9F-4511-B6B0-46463E30C833}</td>
+			<td class="ObjectDetailsValue">{E3B05A8D-28D3-4723-A6D0-A6298A1D1D65}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA15.htm">Basic MySQL Model</a></td>
+			<td class="ObjectDetailsValue"><a href="EA16.htm">Logical Model</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Almacena las categor&#237;as asociada a los establecimientos, por ejemplo, Bar, Restaurante, Cine&#8230;&lt;br/&gt;&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-<div class="ItemBody" id="TaggedValTable">
-	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
-			<td width="50%" class="TableHeading">Tag</td>
-			<td width="50%" class="TableHeading">Value</td>
+			<td width="100%" class="TableHeading">Attribute</td>
 		</tr>
-					<tr>
-				<td width="50%" class="TableRow" valign="top">DocumentOptions</td>
-				<td width="50%" class="TableRow" valign="top">&lt;DocumentOptions&gt;<br />	&lt;DefaultProperties doctype=&quot;0&quot; template=&quot;Model Report&quot; toc=&quot;#lt;none#gt;&quot; stylesheet=&quot;Screen Medium&quot; coverpage=&quot;#lt;none#gt;&quot; sourceguid=&quot;{2F420076-558C-439e-AC58-40E4A7AD34C6}&quot; targetguid=&quot;{4E080B8E-EF9F-4511-B6B0-46463E30C833}&quot;/&gt;<br />	&lt;SSDocument.Options modcreate=&quot;-1&quot; statuslike=&quot;-1&quot; phaselike=&quot;-1&quot; beforeafter=&quot;-1&quot; pkgorder=&quot;1&quot; elemorder=&quot;1&quot; featorder=&quot;1&quot; dgmorder=&quot;1&quot; pkgasc=&quot;0&quot; elemasc=&quot;0&quot; featasc=&quot;0&quot; dgmasc=&quot;0&quot; imagefmt=&quot;0&quot; hindent=&quot;9&quot; noteless=&quot;0&quot; skiproot=&quot;0&quot; statuslist=&quot;&quot; phase=&quot;All&quot; exdetails=&quot;&quot; wordsubst=&quot;0&quot; nobookmarks=&quot;0&quot; hideanonymous=&quot;0&quot; htmlformating=&quot;0&quot; exconndetails=&quot;;NoteLink;&quot; exdiagdetails=&quot;&quot; conndirfilter=&quot;0&quot; childelements=&quot;0&quot; notelessconn=&quot;0&quot; fragment=&quot;0&quot; fragment_type=&quot;0&quot; script_guid=&quot;&quot; packageexclude_type=&quot;0&quot; packageexclude_guid=&quot;ArcGIS0&quot;/&gt;<br />&lt;/DocumentOptions&gt;<br /></td>
-			</tr>	
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public INT</i><br /><strong>&nbsp;&nbsp;CATEGORY_ID</strong>
+				</td>
+			</tr>
 			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario28" onclick="parent.toggleDiv('detailsDIVScenario28','DetailsImageScenario28')" />Details:
-						<div id="detailsDIVScenario28" class="DetailsDiv" >
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes12')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes12" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes12_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes12_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes12_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td>&lt;&lt;column&gt;&gt;</td>
+						</tr>
+						<tr id="DetailsImageAttributes12_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td>Ordered <br /></td>
+						</tr>
+						<tr id="DetailsImageAttributes12_04" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes12_05" style="display: none;">
+							<td width="75"><i>Transient: </i></td>
+							<td>False</td>
+						</tr>
+						<tr id="DetailsImageAttributes12_06" style="display: none;">
+							<td width="75"><i>Derived: </i></td>
+							<td>False</td>
+						</tr>
+							<tr id="DetailsImageAttributes12_07" style="display: none;">
+							<td width="75"><i>IsID: </i></td>
+						<td>False</td>
+						</tr>
+					</table>
+					
+					
 						&nbsp;
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public VARCHAR(50)</i><br /><strong>&nbsp;&nbsp;CATEGORY</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes13')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes13" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes13_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes13_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes13_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td>&lt;&lt;column&gt;&gt;</td>
+						</tr>
+						<tr id="DetailsImageAttributes13_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes13_04" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes13_05" style="display: none;">
+							<td width="75"><i>Transient: </i></td>
+							<td>False</td>
+						</tr>
+						<tr id="DetailsImageAttributes13_06" style="display: none;">
+							<td width="75"><i>Derived: </i></td>
+							<td>False</td>
+						</tr>
+							<tr id="DetailsImageAttributes13_07" style="display: none;">
+							<td width="75"><i>IsID: </i></td>
+						<td>False</td>
+						</tr>
+					</table>
+					
+					
+						&nbsp;
+						
+				</td>
+			</tr>
+	</table>
+</div>
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Operation</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>PK_CATEGORIES</strong>(					<a href="#" onclick="parent.toggleData('param{165042C9-11A9-4904-8F72-88BA706A6166}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{165042C9-11A9-4904-8F72-88BA706A6166}" border="0" />CATEGORY_ID: INT</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{165042C9-11A9-4904-8F72-88BA706A6166}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{165042C9-11A9-4904-8F72-88BA706A6166}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{165042C9-11A9-4904-8F72-88BA706A6166}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{165042C9-11A9-4904-8F72-88BA706A6166}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations14" onclick="parent.toggleDiv('detailsDIVOperations14','DetailsImageOperations14')" />Details:
+						<div id="detailsDIVOperations14" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;PK&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
 						</div>
 					</div>
 				</td>
 			</tr>
-	</table>
-</div>		<div class="ItemBody" id="CustomPropertiesTable">
+
+		</table>
+</div>		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA22.htm">«table» ESTABLISHMENTS</a><br />
+						Table «FK» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> FK_CATEGORIES_ESTABLISMENTS<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> PK_CATEGORIES<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink15" onclick="parent.toggleDiv('detailsDIVLink15','DetailsImageLink15')" />Details:
+							<div id="detailsDIVLink15" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
