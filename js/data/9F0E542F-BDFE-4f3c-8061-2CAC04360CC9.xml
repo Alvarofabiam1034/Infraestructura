@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.2:1", "", "Basic MySQL Model", "EARoot/EA2/EA15.htm", "175.png", "27", "0", "", "Logical diagram0","{9E047503-D26B-48bf-A3E3-E0ABA2565BBF}");
-tocTab[tocTab.length] = new Array("0.2:2", "", "Traceability ", "EARoot/EA2/EA17.htm", "175.png", "28", "0", "", "Logical diagram0","{C54B7320-737C-42d8-84D6-523C0AD08C94}");
-tocTab[tocTab.length] = new Array("0.2:3", "", "«EAReportSpecification» Database A", "EARoot/EA2/EA20.htm", "82.png", "E74", "0", "", "Artifact0","{4E080B8E-EF9F-4511-B6B0-46463E30C833}");
-tocTab[tocTab.length] = new Array("0.2.1", "1", "Conceptual Data Model", "EARoot/EA2/EA1/EA26.htm", "4.png", "", "", "{03351BFF-881C-4be5-84CF-ABE7CAD0616F}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2", "1", "Logical Data Model", "EARoot/EA2/EA2/EA32.htm", "4.png", "", "", "{A0FA8222-ADBC-4868-89FB-3EFCE873B0DE}", "Package");
-tocTab[tocTab.length] = new Array("0.2.3", "1", "«Database» Database A", "EARoot/EA2/EA3/EA47.htm", "4.png", "", "", "{2F420076-558C-439e-AC58-40E4A7AD34C6}", "Package");

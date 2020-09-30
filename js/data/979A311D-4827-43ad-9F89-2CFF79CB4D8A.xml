@@ -1,2 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1", "1", "Diagrama de componentes y requerimientos", "EARoot/EA1/EA3.htm", "34.png", "", "", "{BE792824-4BBA-49ce-8BAA-DFBBE889A865}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "1", "«DataModel» Modelo Base de datos MYSQL", "EARoot/EA2/EA19.htm", "34.png", "", "", "{9F0E542F-BDFE-4f3c-8061-2CAC04360CC9}", "Package");
